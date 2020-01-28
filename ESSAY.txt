@@ -1,0 +1,20 @@
+1. In the homework assignment, we are using character-based ngrams, i.e., the gram units are characters. Do you expect token-based ngram models to perform better?
+
+I think a token-based ngram performs better. Words are more identifiable than characters and combinations of different words are more convincing. For example, C'est la vie is a phrase only written in French.
+When we see C'est la vie within the sentences, we will firmly believe that it is French. However, we cannot make the same decision while seeing "est " and "st l"
+
+2. What do you think will happen if we provided more data for each category for you to build the language models? What if we only provided more data for Indonesian?
+
+Providing more data for each category can improve the language models as probabilities of phrases become much real and convincing. 
+Instead, only providing more data for Indonesian will only increase the probabilities of Indonesian phrases, which will weaken the language models.
+
+3. What do you think will happen if you strip out punctuations and/or numbers? What about converting upper case characters to lower case?
+
+The model maybe inaccurate if striping out punctuations and/or numbers because these actions will destroy the structure and entireness of sentences.
+The upper case used in two phrases. The one is the first letter in sentences, which has no meaning and can be converted to lower case.
+The another one is Proper noun, which has various meanings and special purposes, so these ones cannot be converted.
+In fact, after converting all upper case characters to lower case, the f1-score improved when I used Google Bert to fine-tune the models.
+Reference: https://github.com/NavePnow/Google-BERT-on-fake_or_real-news-dataset#4-part3-result
+
+4. We use 4-gram models in this homework assignment. What do you think will happen if we varied the ngram size, such as using unigrams, bigrams and trigrams?
+Varying the ngram size less than 4-gram models may compromise the language models because the combinations and sequences of different characters are necessary.
