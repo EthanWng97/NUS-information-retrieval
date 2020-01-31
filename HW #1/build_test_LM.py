@@ -70,12 +70,11 @@ def test_LM(in_file, out_file, LM):
     threshold = 0.5
     for line in input_file:
         label_pro = {'malaysian': 0, 'indonesian': 0, 'tamil': 0}
-        [label, text] = line.split(' ', 1)
         strings = []
         miss_count = 0
         # Generate 4-gram phrase
-        for i in range(len(text)-WINDOW_SIZE):
-            strings.append(text[i: i + WINDOW_SIZE])
+        for i in range(len(line)-WINDOW_SIZE):
+            strings.append(line[i: i + WINDOW_SIZE])
         # Calculate the probability
         for string in strings:
             # Ignore if phrase got absent
