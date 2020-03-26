@@ -10,6 +10,8 @@ The IR ([Information Retrieval](https://www.comp.nus.edu.sg/~cs3245/)) course of
 - [Language Detection](https://www.comp.nus.edu.sg/~cs3245/hw1-lang.html)
 - [Boolean Retrieval](https://www.comp.nus.edu.sg/~cs3245/hw2-bool.html)
 - [Vector Space Model](https://www.comp.nus.edu.sg/~cs3245/hw3-vsm.html)
-- To Be Continued
+- [Legal Case Retrieval Mini Project](https://www.comp.nus.edu.sg/~cs3245/hw4-intelllex.html)
 
 ## Reference
+
+- Christopher D. Manning, Prabhakar Raghavan and Hinrich Schütze, [Introduction to Information Retrieval](http://nlp.stanford.edu/IR-book/information-retrieval-book.html), Cambridge University Press. 2008.
