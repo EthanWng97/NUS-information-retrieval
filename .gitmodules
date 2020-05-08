@@ -4,3 +4,6 @@
 [submodule "HW_#3"]
 	path = "HW_#3"
 	url = git@github.com:cs-course-stu/CS3245-NUS-HW3.git
+[submodule "HW_#4"]
+	path = "HW_#4"
+	url = https://github.com/cs-course-stu/CS3245-NUS-HW4.git
